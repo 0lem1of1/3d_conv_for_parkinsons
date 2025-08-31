@@ -35,7 +35,7 @@ Expected Directory Structure:
 │           ├── frame_0002.png
 │           └── ...
 └── ...
+
 The label is considered 1 (Parkinson's) if "PG" is in the subject's folder name. Otherwise, it is 0 (Healthy).
 
 The code processes videos by sampling a fixed number of frames (clip_length) from each video_01, video_02, etc. folder.
-
